@@ -1,0 +1,5 @@
+2021-09-15T15:10:45.017Z INFO @wdio/local-runner: Run worker command: run
+2021-09-15T15:10:45.021Z DEBUG @wdio/config:utils: Couldn't find ts-node package, no TypeScript compiling
+2021-09-15T15:10:45.023Z DEBUG @wdio/local-runner:utils: init remote session
+2021-09-15T15:10:45.025Z DEBUG @wdio/utils:initialiseServices: initialise service "chromedriver" as NPM package
+2021-09-15T15:10:45.031Z DEBUG @wdio/sync: Finished to run "beforeSession" hook in 0ms

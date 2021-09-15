@@ -1,0 +1,14 @@
+docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=admin123 -d mysql
+
+
+
+
+mysql -uroot -padmin123
+
+create user 'appuser'@'%' identified by 'admin123';
+
+grant all privileges on 'appuser'@'%';
+
+
+
+ GRANT ALL PRIVILEGES ON *.* TO 'appuser'@'%';
